@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html><head></head><body onload="myFunction()">
+    <center>
+    <font size="20"><p id="demo">No.</p></font>
+    <h1 id="es"></h1>
+    
+    <script>
+    function myFunction() {
+        var d = new Date();
+        var n = d.getDay()
+        var yn = ""
+    
+    if (n == 7) {
+      yn = "Yes.";
+    }
+    else {
+      yn = "No.";
+    }
+    
+        document.getElementById("demo").innerHTML = yn;
+        }
+    </script>
+    </center></body></html>
